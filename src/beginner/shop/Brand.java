@@ -9,7 +9,11 @@ public class Brand {
         this.name = name;
     }
 
-    public void buy(Thing thing) {
-        System.out.println("에서 " + thing.getName() + "구매습니다.");
+    public String getName() {
+        return name;
+    }
+
+    public String buy(String thing) {
+        return "에서 " + thing + " 샀어요";
     }
 }
