@@ -1,7 +1,6 @@
 package beginner.shop;
 
 // 대분류 - 메이커 분류 목적
-
 public class Brand {
     String name;
 
